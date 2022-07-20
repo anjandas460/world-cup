@@ -1,4 +1,11 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -58,26 +65,53 @@ bottom-section styles
 }
 .anchor-div{
     width: 220px;
-    margin-left: 3%;
+    /* margin-left: 5%; */
 }
 .anchor-div-bg{
     background-color: black;
     margin-right: 6%;
+    height: 180px;
+    border-radius: 15px;
 }
 .a-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 17px;
     height: 40px;
     background-color: white;
-    margin-left: 30px;
-    width: 140px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+    width: 150px;
+    
+    border-radius: 8px;
+}
+#a-div-3{
+    background-color: red;
+}
+#anchore-3{
+    color: aliceblue;
 }
 .anchore{
     text-decoration: none;
-    padding-left: 10px;
+    font-weight: 900;
+    color: black;
 }
 
 .blog-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
-    width: calc(100% - 220px);
+    grid-column-gap: 10px;
+    width: calc(94% - 220px);
+}
+.padding-blog{
+    margin-left: 20px;
+}
+  
+
+.blog-button{
+    height: 25px;
+    border-radius: 5px;
 }
