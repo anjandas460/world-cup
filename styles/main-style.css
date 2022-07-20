@@ -50,21 +50,34 @@ top-section-style
 bottom-section styles
 -------------------- */
 
-.bottom-section{
+.blog-container{
     display: flex;
+    
     margin-top: 45px;
+    margin-right: 2%;
 }
 .anchor-div{
-    width: 200px;
-    margin-left: 2%;
+    width: 220px;
+    margin-left: 3%;
 }
 .anchor-div-bg{
     background-color: black;
+    margin-right: 6%;
+}
+.a-div{
+    height: 40px;
+    background-color: white;
+    margin-left: 30px;
+    width: 140px;
+}
+.anchore{
+    text-decoration: none;
+    padding-left: 10px;
 }
 
 .blog-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
-    width: calc(100% - 200px);
+    width: calc(100% - 220px);
 }
