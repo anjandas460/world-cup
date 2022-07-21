@@ -367,6 +367,26 @@ media queries
             grid-column-gap: 10px;
             width: 100%;
         }
+        .matchs-div{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 40px;
+            grid-column-gap: 10px;
+            width: 100%;
+            margin-left: -20%;
+        }
+        .blog-container-u{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 45px;
+            margin-right: 2%;
+        }
+        .anchor-div-bg-u {
+            background-color: aliceblue;
+
+        }
 
         footer {
             margin-top: 60px;
@@ -387,6 +407,15 @@ media queries
   tablet device
   ------------- */
 
+  /* ----------------------------------------------
+  -------------------------------------------------------------
+  ----------------------------------------------------------------------------
+  feedback needed. banner section is not working
+  ---------------------------------------------------
+  ----------------------------------------------------------
+  -------------------------------------------------------------------------
+  -------------------------------------------------------------------------------------*/
+
   @media only screen and (min-width: 688px) and (max-width: 992px) {
     /* -------------------
     top section for tablet
@@ -394,20 +423,21 @@ media queries
     body{
         width: 100%;
         /* margin-left: 20%; */
-        margin-right: 0;
+        /* margin-right: 0; */
     }
     .top-section {
             display: flex;
+            
             align-content: space-between;
             background-color:blueviolet;
-            width: 80%
+             width: 400px
             border-radius: 29px;
     
         }
     
         .top-section-div-1 {
     
-            width: 50%;
+            width: 300px;
         }
     
         .top-section .top-section-div-1 h1 {
@@ -440,13 +470,39 @@ media queries
     
         .top-section-div-2 {
     
-             width: 30%;
+             width: 50%;
+             
         }
     
         .top-section .top-section-div-2 img {
             height: 600px;
             width: 70%;
             margin-top: 9%;
+            
         }
 
-  }
+        /* ------------------
+        tablet bottom section
+        ------------------- */
+
+        .blog-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 45px;
+            margin-right: 2%;
+        }
+
+        .anchor-div-bg {
+            background-color: aliceblue;
+
+        }
+
+        .blog-div {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 40px;
+            grid-column-gap: 10px;
+            width: 100%;
+        
