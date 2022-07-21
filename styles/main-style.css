@@ -1,4 +1,7 @@
 
+/* -----------
+utilities
+------------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -135,7 +138,7 @@ footer section
 --------------- */
 
 footer{
-    margin-top: 40px;
+    margin-top: 60px;
     height: 500px;
     background-color: black;
 }
@@ -161,6 +164,31 @@ footer div hr{
 .span-div span{
     margin-left: 20px;
     color: aqua;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 100px;
+}
+.footer-icon span a{
+    text-decoration: none;
+    color: aqua;
+}
+.fa-facebook{
+    color: blue;
+    margin-right: 30px;
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+.fa-whatsapp{
+    color: #25D366;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.fa-twitter{
+    color: #1DA1F2;
+    font-size: 25px;
 }
 
 
